@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-size: 23px;
+  font-family: "Pliant", sans-serif;
+}
+
+img {
+  height: 100%;
+  width: 50%;
+}
+
+div {
+  background-color: aquamarine;
+  flex-grow: 2;
+  padding: 30px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+ol {
+  margin-top: 14px;
+}
